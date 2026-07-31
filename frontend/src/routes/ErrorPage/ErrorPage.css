@@ -1,0 +1,38 @@
+#error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+    box-shadow: rgba(0,0,0,0.05) 0px 1px 3px 0px,rgba(0,0,0,0.05) 0px 20px 25px -5px,rgba(0,0,0,0.04) 0px 10px 10px -5px;
+}
+
+#error-container h1 {
+    font-size: 5.5rem;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #7703fc;
+    color: transparent;
+}
+
+#error-container p {
+    color: #7703fc;
+}
+
+#status {
+    font-size: 3.5rem;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #7703fc;
+    color: transparent;
+}
+
+#status-msg {
+    font-size: 1.5rem;
+    color: #7703fc;
+    font-style: italic;
+}

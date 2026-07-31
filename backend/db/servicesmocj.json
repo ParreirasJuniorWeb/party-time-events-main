@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Open Bar",
+        "description": "Todas as bebidas servidas de forma gratuita para os seus convidados.",
+        "price": 2000,
+        "image": "https://media.istockphoto.com/id/2157069449/pt/foto/glass-of-beverage-beside-assorted-fruits.jpg?s=1024x1024&w=is&k=20&c=9sdgCLXKU5uDpMxaZpbQybpMnOLdN4-5XVtYE-djdNA="
+    },
+    {
+        "name": "Segurança",
+        "description": "Esquema de segurança completo para a sua festa.",
+        "price": 2500,
+        "image": "https://pixabay.com/pt/images/download/utility_inc-bodyworn-794099_1920.jpg"
+    },
+    {
+        "name": "Brinquedos",
+        "description": "Deixe a sua festa mais divertida para as crianças.",
+        "price": 1200,
+        "image": "https://media.istockphoto.com/id/1329268101/pt/foto/children-playground-equipment-colorful-playground-empty-outdoor-playground-set-play-area-play.jpg?s=1024x1024&w=is&k=20&c=EpzpDsbay3pJveBYnS4xjYky-q067vJPCef33c57liU="
+    },
+    {
+        "name": "DJ",
+        "description": "Anime a sua festa com música eletrônica!",
+        "price": 1800,
+        "image": "https://pixabay.com/pt/images/download/rohatsevci-music-7238254_1920.jpg"
+    },
+    {
+        "name": "Banda",
+        "description": "Contrate a nossa banda para escolher a trilha sonora.",
+        "price": 2750,
+        "image": "https://pixabay.com/pt/images/download/superdirk-festival-958414_1920.jpg"
+    },
+    {
+        "name": "Buffet",
+        "description": "Buffet completo, com várias opções para você escolher.",
+        "price": 1850,
+        "image": "https://media.istockphoto.com/id/1492861210/pt/foto/catering.jpg?s=1024x1024&w=is&k=20&c=wd1HaCh4A0iWF6SDGpyHjye5g_BOWzlDXw3AohHJ5GU="
+    },
+    {
+        "name": "Garçom",
+        "description": "Garçons que servirão tanto aperitivos como bebidas aos convidados.",
+        "price": 2100,
+        "image": "https://pixabay.com/pt/images/download/graphixmade-waitress-8462379_1920.png"
+    },
+    {
+        "name": "Barman",
+        "description": "Equipe com barman para servir drinks criativos aos convidados.",
+        "price": 1400,
+        "image": "https://pixabay.com/pt/images/download/beasternchen-ai-generated-9024702_1920.jpg"
+    },
+    {
+        "name": "Fotógrafos",
+        "description": "Fotógrafos que vão registrar os melhores momentos da sua festa.",
+        "price": 3000,
+        "image": "https://pixabay.com/pt/images/download/aiperfectportraits-ai-generated-8685865_1920.jpg"
+    },
+    {
+        "name": "Decoração",
+        "description": "Escolha a decaração para sua festa, e nós a montamos.",
+        "price": 1400,
+        "image": "https://cdn.pixabay.com/photo/2021/08/23/09/51/woman-6567386_1280.jpg"
+    }
+]

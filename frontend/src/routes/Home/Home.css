@@ -1,0 +1,50 @@
+.home h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.loading, .NoData {
+    font-size: 5.5rem;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #7703fc;
+    color: transparent;
+}
+
+.parties-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+.parties-container p {
+  text-align: center;
+}
+
+.parties-container .party {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-bottom: 1px solid #ccc;
+    box-shadow: rgba(0,0,0,0.05) 0px 1px 3px 0px,rgba(0,0,0,0.05) 0px 20px 25px -5px,rgba(0,0,0,0.04) 0px 10px 10px -5px;
+}
+
+.parties-container .party img {
+    width: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.parties-container .btn-secondary {
+    max-width: 120px;
+    text-align: center;
+}

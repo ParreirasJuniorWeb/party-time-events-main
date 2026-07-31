@@ -1,0 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/lato');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    outline: 0;
+    border: 0;
+    scroll-behavior: smooth;
+    overflow-x: hidden; 
+    transition: all .5s ease-in-out;                                              
+}
+
+body {
+    background-color: #f5f6fa;
+}
+
+ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+a {
+    color: #283252;
+    font-weight: bold;
+}
+
+p {
+    color: #747990;
+}
+
+::selection {
+    background-color: #7703fc;
+    color: #fff;
+}
+
+.btn, .btn-secondary {
+    border: 2px solid #7703fc;
+    padding: .5rem 1em;
+    border-radius: .5rem;
+    letter-spacing: 1.4px;
+    background-color: transparent;
+}

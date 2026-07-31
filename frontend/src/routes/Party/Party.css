@@ -1,0 +1,62 @@
+.party h1,
+.party h2,
+.party h3,
+.party p {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.party h3 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+.party img {
+  max-width: 80%;
+  width: 100%;
+  border-radius: .5rem;
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+  box-shadow: rgba(0,0,0,0.05) 0px 1px 3px 0px,rgba(0,0,0,0.05) 0px 20px 25px -5px,rgba(0,0,0,0.04) 0px 10px 10px -5px;
+}
+
+.actions-container {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.party .services-container {
+  text-align: center;
+  justify-self: center;
+}
+
+.party .services-container .service {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.party .services-container .service img {
+  max-width: 50rem;
+  height: 20rem;
+}
+
+.party .services-container .service:last-child img {
+  height: 18rem;
+}
+
+.party .services-container .service p {
+  letter-spacing: 2.2px;
+  font-weight: 600;
+}
+
+.party .services-container .service p:last-child {
+  font-size: 3rem;
+}
