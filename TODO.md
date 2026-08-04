@@ -1,7 +1,10 @@
-# TODO - Deploy Vercel
+# TODO - Correções de carregamento/criação de festas + seed de services
 
-- [ ] Criar `vercel.json` na raiz com roteamento para frontend e API backend
-- [ ] Criar função serverless em `api/index.js` para expor o app Express
-- [ ] Ajustar backend para conectar no MongoDB em ambiente serverless sem múltiplas conexões
-- [ ] Gerar build do frontend (`frontend/dist`)
-- [ ] Validar viabilidade de deploy e documentar checklist final
+- [ ] Corrigir baseURL da API no frontend (`frontend/src/axios/config.js`)
+- [ ] Corrigir chamadas Axios para rotas relativas em:
+  - [ ] `frontend/src/routes/Home/Home.jsx`
+  - [ ] `frontend/src/routes/CreateParty/CreateParty.jsx`
+- [ ] Criar script de seed em `backend/db/seedServices.js`
+- [ ] Adicionar script `seed:services` em `backend/package.json`
+- [ ] Executar seed no backend e validar inserção dos serviços
+- [ ] Validar endpoints impactados com curl
