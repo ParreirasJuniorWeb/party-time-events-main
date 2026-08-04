@@ -29,7 +29,7 @@ const CreateParty = () => {
   // Load services
   useEffect(() => {
     const loadServices = async () => {
-      const response = await partyFetch.get("/services");
+      const response = await partyFetch.get("services");
       setServices(response.data);
     };
 
@@ -202,7 +202,7 @@ const CreateParty = () => {
         image,
         services: partyServices,
       };
-      const response = await partyFetch.post("/parties", party);
+      const response = await partyFetch.post("parties", party);
 
       if (response.status === 201) {
         Toast("Festa criada com sucesso!", "success");

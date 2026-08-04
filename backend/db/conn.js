@@ -1,5 +1,8 @@
 import mongoose from "mongoose";
 import { setServers } from "node:dns";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export async function connect() {
   try {
