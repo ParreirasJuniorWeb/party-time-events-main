@@ -293,6 +293,16 @@ Projeto preparado para deploy com:
 
 ---
 
+🤖 Sobre o processo de desenvolvimento
+
+Além da implementação da aplicação, utilizei ferramentas de Inteligência Artificial como apoio durante o desenvolvimento para revisar código, discutir alternativas de implementação e elaborar alguns cenários de testes automatizados.
+
+Os testes foram posteriormente executados, analisados e ajustados por mim para validar regras de negócio, comportamento da API e persistência correta dos dados no MongoDB.
+
+Acredito que a IA pode acelerar tarefas de engenharia, mas compreender os resultados, validar as implementações e garantir a qualidade da aplicação continuam sendo responsabilidades do desenvolvedor.
+
+---
+
 ## 👨‍💻 Autor
 
 **João Pedro**  
